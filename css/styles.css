@@ -14,12 +14,6 @@ body {
 .link {
     text-decoration: none;
 }
-.link:hover {
-    color: #404bbf;
-}
-.link:focus {
-    color: #404bbf;
-}
 .studio {
     color: #2e2f42;
 }
@@ -119,8 +113,10 @@ body {
     cursor: pointer;
 }
 .buttonport:hover {
-    background-color: #ffffff;
+    background-color: #404bbf;
+    color: #ffffff;
 }
 .buttonport:focus {
-    background-color: #ffffff;
+    background-color: #404bbf;
+    color: #ffffff;
 }
