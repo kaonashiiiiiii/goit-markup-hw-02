@@ -40,7 +40,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }   
-.first-section {
+.mail:hover {
+    color: #404bbf;
+}
+.mail:focus {
+    color: #404bbf;
+}
+.first {
     background-color: #2e2f42;
 }
 .zagolovok {
