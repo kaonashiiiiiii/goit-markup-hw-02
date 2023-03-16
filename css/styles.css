@@ -27,7 +27,6 @@ body {
     list-style: none;
 }
 .paragraph {
-    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -40,7 +39,4 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.mailcolor {
-    color: #434455;
-}
+}   
