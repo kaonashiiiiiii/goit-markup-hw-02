@@ -41,6 +41,12 @@ body {
     letter-spacing: 0.02em; 
     color: #434455;
 }  
+.mail:hover {
+    color: #404bbf;
+}
+.mail:focus {
+    color: #404bbf;
+}
 .first {
     background-color: #2e2f42;
 }
@@ -101,4 +107,7 @@ body {
 }
 .listfouart {
     background-color: #ffffff;
+}
+.footer {
+    background-color: #2e2f42;
 }
