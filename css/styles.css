@@ -114,3 +114,19 @@ body {
 .studioend {
     color:#f4f4fd;
 }
+.buttonport {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.buttonport:hover {
+    background-color: #404BBF;
+}
+.buttonport:focus {
+    background-color: #404BBF;
+}
