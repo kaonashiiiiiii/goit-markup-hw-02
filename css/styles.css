@@ -20,17 +20,17 @@ body {
 .list {
     list-style: none;
 }
-.punkt {
+.paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.punkt:hover {
+.paragraph:hover {
     color: #404bbf;
 }
-.punkt:focus {
+.paragraph:focus {
     color: #404bbf;
 }
 .address {
