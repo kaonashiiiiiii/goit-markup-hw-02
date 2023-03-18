@@ -1,10 +1,19 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
+    background-color: var(--background-white);
 }
 :root {
     --background-black: #2e2f42
+}
+:root {
+    --background-white: #ffffff
+}
+:root {
+    --logo-color: #4d5ae5
+}
+:root {
+    --contact-color: #434455
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -13,16 +22,16 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-color);
 }
 .link {
     text-decoration: none;
 }
 .link:hover {
-    color: #404bff;
+    color: #404bbf;
 }
 .link:focus {
-    color: #404bff;
+    color: #404bbf;
 }
 .studio {
     color: var(--background-black);
@@ -49,7 +58,7 @@ body {
     
 }  
 .colorcontact {
-    color: #434455;
+    color: var(--contact-color);
 }
 .first {
     background-color: var(--background-black);
@@ -72,10 +81,10 @@ body {
     cursor: pointer;
 }
 .button:hover {
-    color: #404bff;
+    color: #404bbf;
 }
 .button:focus {
-    color: #404bff;
+    color: #404bbf;
 }
 .third-header {
     font-weight: 500;
@@ -124,15 +133,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--logo-color);
     background-color: #F4F4FD;
     cursor: pointer;
 }
 .buttonport:hover {
-    background-color: #404bff;
+    background-color: #404bbf;
     color: #ffffff;
 }
 .buttonport:focus {
-    background-color: #404bff;
+    background-color: #404bbf;
     color: #ffffff;
 }
