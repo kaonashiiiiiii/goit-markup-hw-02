@@ -70,7 +70,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.button {
+.order-service-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -80,10 +80,10 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-.button:hover {
+.order-service-button:hover {
     color: #404bbf;
 }
-.button:focus {
+.order-service-button:focus {
     color: #404bbf;
 }
 .third-header {
