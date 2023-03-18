@@ -2,6 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
+:root {
+    --link-color: #404bbf
+    --background-black: #2e2f42
+    --background-white: #ffffff
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -15,13 +20,13 @@ body {
     text-decoration: none;
 }
 .link:hover {
-    color: #404bbf;
+    color: var(--link-color);
 }
 .link:focus {
-    color: #404bbf;
+    color: var(--link-color);
 }
 .studio {
-    color: #2e2f42;
+    color: var(--background-black);
 }
 .list {
     list-style: none;
@@ -33,7 +38,7 @@ body {
     letter-spacing: 0.02em;
 }
 .colorpar {
-    color: #2e2f42;
+    color: var(--background-black);
 }
 .address {
     font-style: normal;
@@ -48,14 +53,14 @@ body {
     color: #434455;
 }
 .first {
-    background-color: #2e2f42;
+    background-color: var(--background-black);
 }
-.zagolovok {
+.header {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--background-white);
 }
 .button {
     background-color: #4D5AE5;
@@ -64,52 +69,52 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--background-white);
     cursor: pointer;
 }
 .button:hover {
-    color: #404bbf;
+    color: var(--link-color);
 }
 .button:focus {
-    color: #404bbf;
+    color: var(--link-color);
 }
-.zagolthird {
+.third-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--background-black);
 }
-.abzac {
+.list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.zagthisec {
+.third-article-header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--background-black);
 }
-.artfou {
+.fourth-article {
     background-color: #f4f4fd;
 }
-.fouartzag {
+.fourth-article-header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--background-black);
 }
-.listfouart {
-    background-color: #ffffff;
+.fourth-article-list {
+    background-color: var(--background-white);
 }
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--background-black);
 }
 .studioend {
     color:#f4f4fd;
@@ -125,10 +130,10 @@ body {
     cursor: pointer;
 }
 .buttonport:hover {
-    background-color: #404bbf;
-    color: #ffffff;
+    background-color: var(--link-color);
+    color: var(--background-white);
 }
 .buttonport:focus {
-    background-color: #404bbf;
-    color: #ffffff;
+    background-color: var(--link-color);
+    color: var(--background-white);
 }
