@@ -5,14 +5,8 @@ body {
 }
 :root {
     --background-black: #2e2f42
-}
-:root {
     --background-white: #ffffff
-}
-:root {
     --logo-color: #4d5ae5
-}
-:root {
     --contact-color: #434455
 }
 .logo {
